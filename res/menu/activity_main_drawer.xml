@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/sites"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_minggugong"
+            android:icon="@drawable/ic_map_marker_radius_black_24dp"
+            android:title="@string/minggugong" />
+        <item
+            android:id="@+id/nav_shengtailu"
+            android:icon="@drawable/ic_map_marker_radius_black_24dp"
+            android:title="@string/shengtailu" />
+        <item
+            android:id="@+id/nav_maqun"
+            android:icon="@drawable/ic_map_marker_radius_black_24dp"
+            android:title="@string/maqun" />
+        <item
+            android:id="@+id/nav_maigaoqiao"
+            android:icon="@drawable/ic_map_marker_radius_black_24dp"
+            android:title="@string/maigaoqiao" />
+        <item
+            android:id="@+id/nav_muxuyuan"
+            android:icon="@drawable/ic_map_marker_radius_black_24dp"
+            android:title="@string/muxuyuan" />
+        <item
+            android:id="@+id/nav_jingtianlu"
+            android:icon="@drawable/ic_map_marker_radius_black_24dp"
+            android:title="@string/jingtianlu" />
+    </group>
+
+    <group
+        android:id="@+id/other"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_checkin_tips"
+            android:icon="@drawable/ic_book_open_page_variant_black_24dp"
+            android:title="@string/checkin_tips" />
+    </group>
+</menu>
