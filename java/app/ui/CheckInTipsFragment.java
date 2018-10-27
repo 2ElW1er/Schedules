@@ -9,13 +9,13 @@ import android.view.ViewGroup;
 
 import app.R;
 
-public class CheckinTipsFragment extends Fragment {
+public class CheckInTipsFragment extends Fragment {
 
-    public CheckinTipsFragment() {
+    public CheckInTipsFragment() {
     }
 
-    public static CheckinTipsFragment newInstance() {
-        return new CheckinTipsFragment();
+    public static CheckInTipsFragment newInstance() {
+        return new CheckInTipsFragment();
     }
 
     @Override

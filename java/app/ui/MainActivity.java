@@ -148,7 +148,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             case R.id.nav_checkin_tips:
             default:
                 toolbar.setSubtitle(null);
-                fragment = CheckinTipsFragment.newInstance();
+                fragment = CheckInTipsFragment.newInstance();
                 break;
         }
         FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
